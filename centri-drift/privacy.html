@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Centri Drift Privacy Policy — Tickwork</title>
+<meta name="description" content="How the game Centri Drift handles your data: game account, online leaderboards, account backup, purchases and support.">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site">
+    <a class="mark" href="/">Tickwork</a>
+    <span class="tag">Centri Drift · iOS &amp; Android</span>
+  </header>
+
+  <h1>Centri Drift Privacy Policy</h1>
+  <p class="updated">Last updated: 5 November 2026 · <a href="datenschutz.html">Deutsche Fassung</a> · <a href="support-en.html">Help &amp; Support</a></p>
+
+  <p>This policy covers the game <strong>Centri Drift</strong> for iPhone and Android. Unlike our other apps, Centri Drift offers online leaderboards, events and a backup of your progress, so we store some data on servers. This page explains what that data is, who can see it, and how to switch it off or delete it. Anything not covered here — this website itself, for example — is governed by our <a href="../privacy.html">general privacy policy</a>.</p>
+
+  <h2>Controller</h2>
+  <p>Ines Golub (trading as Tickwork), Germany. Contact: <a href="mailto:inesgolubapps@gmail.com">inesgolubapps@gmail.com</a>. Full postal details are listed in the <a href="../impressum.html">Impressum</a>.</p>
+
+  <h2>In short</h2>
+  <div class="card">
+    <ul>
+      <li>You need neither an e-mail address nor a password. For the online features the app creates an anonymous game account with a random account ID.</li>
+      <li>Other players see your player name, avatar, frame, best scores and event trophies in leaderboards and profiles. Your car collection, collectables and balances stay private.</li>
+      <li>No advertising SDKs, no analytics, no crash reporting, no tracking.</li>
+      <li>Online leaderboards can be switched off in the settings. <strong>DELETE PROFILE</strong> removes your online data and your account.</li>
+    </ul>
+  </div>
+
+  <h2>Data on your device</h2>
+  <p>Centri Drift stores your progress, coins, diamonds, cars, paint jobs, achievements, collectables, records and settings on your device. Without the online features this data never leaves your device. It may end up in a device backup you have set up yourself with Apple or Google; we have no access to that. Deleting the app normally removes it.</p>
+
+  <h2>Online features</h2>
+  <p>For online leaderboards, the weekly league, events and daily gifts, Centri Drift uses services from <strong>Google Firebase</strong>: Firebase Authentication for the game account, Cloud Firestore as the database, and Firebase App Check to protect against tampered apps. We run no servers of our own for this, use no Cloud Functions and no Firebase analytics. Google processes the data on our behalf.</p>
+  <p>The online features are switched on when you first start the app. You can switch them off at any time under <strong>SETTINGS → ONLINE LEADERBOARDS</strong>; the game remains fully playable offline.</p>
+
+  <h3>Game account</h3>
+  <p>The first time it goes online, the app creates an anonymous account with Firebase. It consists of a randomly generated account ID; no name, e-mail address or phone number is requested. Anonymous here means we do not know who you are. The account ID does, however, permanently link your profile, your runs and your leaderboard entries. To stay signed in, the app keeps a session token on your device (in the keychain on iOS).</p>
+
+  <h3>Profile and player name</h3>
+  <p>Your account has a player name, an avatar and a frame. The app suggests a random name (such as “FLINK FUCHS 42”), which you can change. Names are checked against a block list so that nobody uses offensive names or impersonates others; we may remove offensive names. Avatars and frames come from the game — you do not upload pictures of your own. The profile also stores your platform (iOS or Android), the version of the online interface, when the account was created, and your time zone's offset from UTC, so that daily gifts and weekly boundaries change at the right local time. We do not determine your location.</p>
+
+  <h3>Ranked runs</h3>
+  <p>To keep leaderboards fair, the app obtains a start permission before a ranked run and reports the result afterwards: score, car driven, worlds reached, bends driven, perfect exits, start and end time, the sequence of your inputs (when you pressed and released) and the track used. This allows a run to be verified and manipulation to be detected. Complete runs are visible only to you and to us, not to other players.</p>
+
+  <h3>What other players see</h3>
+  <p>Anyone who plays online can see in the app:</p>
+  <ul>
+    <li>your player name, avatar and frame,</li>
+    <li>your best scores with their time, the car you drove and the worlds you reached,</li>
+    <li>your place in the all-time TOP 100, in your weekly league group and in event groups,</li>
+    <li>your weekly wins and your event trophies.</li>
+  </ul>
+  <p>These entries technically also contain your random account ID so the app can match them to the right profile. Your car collection, collectables, coin and diamond balances, purchases and complete runs are not visible to others. Leaderboards can only be viewed inside the app by signed-in game accounts, not as a public web page.</p>
+
+  <h3>Weekly league, events and rewards</h3>
+  <p>With your first ranked run of a week you are assigned to a fixed group of up to 250 players; the week changes on Mondays at 05:00 German time. Events work the same way with groups of their own. So that rewards are credited exactly once, we store in your account which groups you belonged to, which rewards you have claimed and the totals needed for that. This information is private.</p>
+
+  <h3>Protection against manipulation</h3>
+  <p>Firebase App Check verifies that online requests come from a genuine, unmodified Centri Drift app. On iPhone, App Check uses <strong>Apple App Attest</strong>: your device creates a key, Apple confirms the app is genuine, and Firebase then issues time-limited proofs. On Android, <strong>Google Play Integrity</strong> is intended for this. Technical verification data is exchanged between your device, Apple or Google, and Firebase. No advertising ID or hardware serial number is used for this.</p>
+
+  <h3>Connection data</h3>
+  <p>With every connection, Google processes technically necessary data such as your IP address and connection details in order to deliver the services and prevent abuse. We do not store your IP address in the database ourselves and do not analyse it. According to Google, Firebase Authentication logs IP addresses for a few weeks.</p>
+
+  <h2>Account backup with Apple or Google</h2>
+  <p>If you choose to, you can link your account under <strong>SETTINGS → PROFILE → BACK UP ACCOUNT</strong> with <strong>Sign in with Apple</strong> or a <strong>Google sign-in</strong> (depending on device and app version). We then additionally store your progress in your Firebase account so you can restore it on a new device: coins, diamonds, cars and their customisations, avatars and frames, achievements, collectables, records, discovered worlds and your purchase entitlements (such as “Remove ads”). Sound, haptics and similar device settings stay on each device. Only you can retrieve the backup.</p>
+  <p>When you sign in, Apple or Google gives us an identifier that lets Firebase recognise your game account. We do not request your name or your e-mail address and never display them. Apple's or Google's privacy terms apply to the sign-in itself.</p>
+  <p>If the progress on your device and the progress in the account differ, you choose one of them; the other is discarded, not added together.</p>
+
+  <h2>Purchases</h2>
+  <p>Purchases in Centri Drift are processed by the App Store (through Apple's StoreKit) or Google Play. We never receive your payment details. On your device the app stores which products you have bought and the store's transaction identifier, so that a purchase is credited exactly once and can be restored later. If you have backed up your account, your purchase entitlements are part of the backup (see above); the transaction data itself stays on the device. Apple's or Google's privacy terms apply to the purchase.</p>
+
+  <h2>Advertising</h2>
+  <p>Centri Drift currently contains <strong>no advertising SDKs</strong>. Where the game offers a reward for watching an ad — for CONTINUE or a free diamond, for example — it currently shows only a placeholder that runs entirely on your device and transmits nothing. There is no tracking, and the app does not read any advertising ID (IDFA or Android advertising ID). Should we add an advertising provider in the future, we will update this policy before that version is released.</p>
+
+  <h2>Crash reports and statistics</h2>
+  <p>Centri Drift contains no analytics and no crash-reporting tool. If you have allowed your device to share diagnostics with developers, Apple or Google provides us with aggregated crash and usage reports that do not identify you.</p>
+
+  <h2>Support requests</h2>
+  <p>If you e-mail us, we receive its content and your sender address. If you ask us to look into a problem with your account, your account ID helps; you find it in the app under <strong>SETTINGS → PROFILE → COPY ACCOUNT ID</strong>. Please include only what your request needs. We use this information solely to handle your request. The mailbox is hosted by Google (Gmail).</p>
+
+  <h2>How long we keep data</h2>
+  <ul>
+    <li><strong>Account, profile, best scores, public profile and account backup:</strong> until you choose DELETE PROFILE or ask us to delete them.</li>
+    <li><strong>Individual runs including the input sequence:</strong> deleted in a regular clean-up, normally 90 days after the run started. Runs that sit in a TOP 100 are kept until the review of the related rewards is complete; the same period applies afterwards.</li>
+    <li><strong>Closed weekly and event groups</strong> and the records of claimed rewards are kept for as long as they are needed for the leaderboards and for rewards that can still be claimed. <!-- Lucas has not yet decided a retention period for weekly/event groups, memberships and unclaimed rewards; currently no expiry in code. Enter the period here once decided. --></li>
+    <li><strong>After an account is deleted</strong>, Google states that it removes the account data from its backup systems as well within 180 days.</li>
+    <li><strong>Support e-mails</strong> are deleted once they are no longer needed to handle the request. <!-- Support retention period not decided. --></li>
+    <li><strong>Data on your device</strong> stays there until you remove it yourself, for example by deleting the app.</li>
+  </ul>
+
+  <h2>Switching off, signing out, deleting</h2>
+  <h3>ONLINE LEADERBOARDS OFF</h3>
+  <p>Under <strong>SETTINGS → ONLINE LEADERBOARDS</strong> you stop all online requests, events and daily gifts. The app signs you out on the device and discards cached online data. Data already stored on the server — your profile and your leaderboard entries — remains. If you switch back on, the app creates a new account unless you backed up your previous one with Apple or Google.</p>
+  <h3>DELETE PROFILE</h3>
+  <p>Under <strong>SETTINGS → PROFILE → DELETE PROFILE</strong> you delete your own online data and your account: runs, leaderboard entries, profile and player name, reward records, the account backup and finally the Firebase account itself. A link to Apple or Google is removed. What remains:</p>
+  <ul>
+    <li>In weekly and event groups that have already closed, the place, score and time of your entry remain so that other players' places do not shift. Account ID, name, avatar and frame are removed from it; the entry is shown as “GELÖSCHT” (deleted). Someone who saw the leaderboard before could still associate it with you.</li>
+    <li>Your progress on the device (coins, cars, records, achievements).</li>
+    <li>Your Apple or Google account and your purchase history with the store.</li>
+    <li>E-mails you have sent us — you can ask us separately to delete those.</li>
+  </ul>
+  <p>If you can no longer open the app, write to <a href="mailto:inesgolubapps@gmail.com">inesgolubapps@gmail.com</a>; the <a href="support-en.html#delete-profile">support page</a> explains how. Deleting the app alone does not delete your online account.</p>
+
+  <h2>Legal bases</h2>
+  <p>We provide the online features, the account backup and the handling of purchases because you want to use them; the legal basis is the performance of the user agreement for the app (Art. 6(1)(b) GDPR). Verifying runs, App Check and the name block list serve our legitimate interest in fair leaderboards and a service protected against abuse (Art. 6(1)(f) GDPR); the same applies to handling support requests. You may object to this processing; the simplest way is to switch off online leaderboards and delete your profile.</p>
+
+  <h2>Recipients and transfers outside the EU</h2>
+  <p>Recipients of your data are Google (Firebase and the support mailbox) and, where you use their services, Apple (App Attest, Sign in with Apple, App Store). Game data in Cloud Firestore is stored in a European multi-region. Google and Apple may also process data in the United States and other countries outside the EU. These transfers are based on the EU–US Data Privacy Framework or the EU standard contractual clauses, depending on the provider. See the <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase privacy overview</a>, <a href="https://policies.google.com/privacy" rel="noopener">Google's privacy policy</a> and <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple's privacy policy</a>.</p>
+
+  <h2>Children</h2>
+  <p>Like our other apps, Centri Drift is not directed at children under 13, and we do not knowingly collect personal data from them.</p>
+
+  <h2>Your rights</h2>
+  <p>Under the GDPR you have the right to access, rectification, erasure, restriction of processing, data portability, and to object to processing based on legitimate interest. To exercise them, write to <a href="mailto:inesgolubapps@gmail.com">inesgolubapps@gmail.com</a> and, if possible, include your account ID so we can find your data. You also have the right to lodge a complaint with a data protection supervisory authority.</p>
+
+  <h2>Changes</h2>
+  <p>We update this policy when Centri Drift or the services it uses change, before any new processing begins. The date at the top shows the current version.</p>
+
+  <footer class="site">
+    <span>© 2026 Tickwork · Ines Golub</span>
+    <a href="../index.html">Home</a>
+    <a href="support-en.html">Help &amp; Support</a>
+    <a href="datenschutz.html">Datenschutz</a>
+    <a href="../impressum.html">Impressum</a>
+  </footer>
+
+</div>
+</body>
+</html>
