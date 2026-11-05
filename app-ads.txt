@@ -6,6 +6,9 @@ OWNERDOMAIN=inesgolubapps.github.io
 # ironSource Ads (LevelPlay), Publisher-ID aus platform.ironsrc.com → Account → API
 ironsrc.com, 672811, DIRECT
 
+# Google AdMob (Bidding ueber LevelPlay, Publisher des Kontos inesgolubapps)
+google.com, pub-4568713097298827, DIRECT, f08c47fec0942fa0
+
 # Unity Ads
 unity.com, 139574281, DIRECT, 96cabb5fbdde37a7
 adwmg.com, 159512, RESELLER, c9688a22012618e7
